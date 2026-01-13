@@ -2,7 +2,7 @@
 using namespace std;
 using namespace std::chrono;
 
-void complexRec(int n,int count) {
+int complexRec(int n,int count) {
     int count = 0;
 
    if (n <= 2) {
@@ -54,4 +54,5 @@ int main() {
 //Reccurance relation = 3T(n/2) + O(nlogn)
 //Time complexity = O(n^(log3)) 
 //depth of recusion tree = logn
+
 
